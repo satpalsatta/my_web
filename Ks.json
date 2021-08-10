@@ -1,0 +1,11 @@
+json 
+   obj = {name: "harry", length: 1, a: {this: 'tha"t'}}
+  jso = json.stringify(obj);
+   console.log(typeof jso)
+   console.log(jso)
+  parsed = json.parse(`{"name":"harry","length":1,"a":{"this":"that"}}`)
+   console.log(parsed);
+
+template literals - backticks
+a = 34;
+console.log(`this is my ${a}`)
